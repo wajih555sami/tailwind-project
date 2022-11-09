@@ -1,0 +1,23 @@
+/* start global   */
+body{
+    background-color: #FFF8F1;
+}
+/* End global */
+/* start nav */
+@media (max-width:768px){
+    .navbar .logo {
+        max-width: 70px;
+    }
+}
+/* End nav */
+/* start welcome */
+.hold-img::before{
+    top: 50%;
+    transform: translateY(-50%);
+    min-height: 60%;
+    z-index: -1;
+}
+@media (min-width:991px){
+    .mh-500{max-height: 500px;}
+}
+/* end welcome */
